@@ -22,8 +22,13 @@ usage
   from ipydra import db, create_app
   db.create_all(app=create_app())
   ```
+  
+4. create ipython notebook profile 
+  ```
+  ipython profile create nbserver
+  ```
 
-4. run the development server
+5. run the development server
   ```python
   python ipydra/runserver.py
   ```
