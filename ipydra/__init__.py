@@ -16,7 +16,7 @@ config.set('ipydra', 'BASE_URL', 'http://localhost')
 config.set('ipydra', 'DATA_DIR', '~/.ipydra')
 config.set('ipydra', 'INITDATA_DIR', '')
 # load configuration file
-config.read('ipydra.cfg')
+config.read('/home/remote/ipydra/ipydra.cfg')
 DB_URI = os.path.expanduser(config.get('ipydra', 'DB_URI'))
 BASE_URL = os.path.expanduser(config.get('ipydra', 'BASE_URL'))
 DATA_DIR = os.path.expanduser(config.get('ipydra', 'DATA_DIR'))
