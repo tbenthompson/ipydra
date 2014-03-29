@@ -7,7 +7,7 @@ from flask import Blueprint
 from flask import redirect
 from flask import render_template
 from flask.ext.wtf import Form
-from flask.ext.wtf import TextField
+from wtforms import TextField
 
 from ipydra import db
 from ipydra import models
